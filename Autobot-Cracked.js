@@ -65,7 +65,7 @@ var Autobot = {
         } catch (F) { };
         Autobot['botPremWnd'] = undefined
       };
-      Autobot['botWnd'] = Layout['dialogWindow']['open']('', Autobot['title'] + ' v<span style="font-size: 10px;">' + Autobot['version'] + '</span>', 500, 350, '', false);
+      Autobot['botWnd'] = Layout['dialogWindow']['open']('', Autobot['title'] + ' v' + Autobot['version'], 500, 350, '', false);
       Autobot['botWnd']['setHeight']([350]);
       Autobot['botWnd']['setPosition'](['center', 'center']);
       var _0x88b7x2 = Autobot['botWnd']['getJQElement']();
