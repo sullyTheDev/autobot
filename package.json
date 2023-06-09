@@ -1,0 +1,14 @@
+{
+  "name": "autobot",
+  "version": "1.0.0",
+  "description": "Go check out our new project on www.grepobot.net\r New improved look, dedidcated executable, automatic farming, building, attacks... And MUCH MORE! 🖤",
+  "main": "Assistant.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minify": "^10.2.0"
+  }
+}
