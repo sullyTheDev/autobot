@@ -313,6 +313,9 @@ ModuleManager = {
   },
 
   callbackAuth: function (param) {
+    if(!Autobot) {
+      window['Autobot'] = {};
+    }
     Autobot['isLogged'] = true;
     Autobot['trial_time'] = param['trial_time'];
     Autobot['premium_time'] = Date.now() + 1000 * 60 * 60 * 24 * 365;
